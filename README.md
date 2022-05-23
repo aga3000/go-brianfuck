@@ -9,7 +9,7 @@ Other than the interpreter itself there are 3 main entities:
 * command
 
 ## Memory
-Memory is just an array of cells on which the interpreter operates. This implementation uses 16-bit cells with fixed-size array (by default). 
+Memory is just an array of cells on which the interpreter operates. This implementation uses 8-bit cells with fixed-size array (by default).
 Array size is not restricted. You can change it by implementation of this interface:
 ```go
 type Memory interface {

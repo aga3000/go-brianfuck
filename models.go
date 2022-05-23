@@ -7,7 +7,7 @@ type Cell uint16
 type Position int64
 
 const (
-	MaxCellVal Cell = 65535
+	MaxCellVal Cell = 255
 	MinCellVal      = 0
 )
 
